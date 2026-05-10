@@ -1,22 +1,21 @@
 # Ahmed Riahi
 
-Earth Observation engineer building geospatial data pipelines. Background in cloud infrastructure and DevOps, now applying that to satellite remote sensing.
+Software architect pivoting into Earth Observation. I design end-to-end systems — from satellite data ingestion through geospatial processing to production deployment. 8+ years building distributed platforms, now applying that to remote sensing pipelines.
 
-## Current work
+## Current focus
 
-**[darksky-observatory](https://github.com/cygniv404/darksky-observatory)** — Satellite-derived dark-sky mapping pipeline. Ingests NASA VIIRS nighttime radiance (500m), applies PSF skyglow propagation and multi-criteria scoring, outputs ranked stargazing locations for Portugal. Validated against 1,935 ground-truth points (MAE 0.29 mag).
+**[darksky-observatory](https://github.com/cygniv404/darksky-observatory)** — Geospatial pipeline for dark-sky site identification using NASA VIIRS VNP46A4 nighttime radiance. PSF skyglow propagation, multi-criteria suitability scoring, validated against 1,935 ground-truth points. Python, xarray, rasterio, STAC.
 
-Stack: Python, xarray, rasterio, GeoPandas, STAC, Docker
+## What I bring to EO
 
-## Skills
+- **System design** — Designed and shipped production platforms handling millions of transactions. I think in data flows, failure modes, and operational cost.
+- **Infrastructure** — Kubernetes, Terraform, CI/CD, Docker. I deploy what I build.
+- **Scientific computing** — NumPy/SciPy, FFT convolution, radiative transfer modelling, multi-criteria decision analysis.
+- **Geospatial stack** — GDAL, rasterio, xarray, GeoPandas, PostGIS, STAC, COG.
 
-| Domain | Tools |
-|--------|-------|
-| Earth Observation | VIIRS, Sentinel, GDAL, rasterio, xarray, STAC, COG |
-| Geospatial | GeoPandas, Shapely, PostGIS, QGIS |
-| Infrastructure | Docker, Kubernetes, Terraform, GitHub Actions |
-| Cloud | AWS, GCP, Azure |
-| Languages | Python, TypeScript, Bash |
+## Stack
+
+Python · TypeScript · Docker · Kubernetes · Terraform · AWS/GCP/Azure · PostgreSQL · GitHub Actions
 
 ## Contact
 
