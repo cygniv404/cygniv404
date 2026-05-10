@@ -1,22 +1,21 @@
 # Ahmed Riahi
 
-Software architect pivoting into Earth Observation. I design end-to-end systems — from satellite data ingestion through geospatial processing to production deployment. 8+ years building distributed platforms, now applying that to remote sensing pipelines.
+Principal Solutions Architect — AI systems and Earth Observation. 8+ years building production platforms; now applying that depth to satellite pipelines and agentic AI at scale.
 
-## Current focus
+## Featured work
 
-**[darksky-observatory](https://github.com/cygniv404/darksky-observatory)** — Geospatial pipeline for dark-sky site identification using NASA VIIRS VNP46A4 nighttime radiance. PSF skyglow propagation, multi-criteria suitability scoring, validated against 1,935 ground-truth points. Python, xarray, rasterio, STAC.
+**[darksky-observatory](https://github.com/cygniv404/darksky-observatory)** — Geospatial pipeline for dark-sky site identification using NASA VIIRS VNP46A4 nighttime radiance. PSF skyglow propagation, multi-criteria suitability scoring, validated against 1,935 ground-truth points. Python · xarray · rasterio · STAC.
 
-## What I bring to EO
+**Agentic AI for real-time trading** — Designed and shipped a production LangGraph multi-agent system: 167-tool architecture with a two-stage hybrid tool selector (semantic retrieval → LLM rerank), 15-layer middleware stack separating tracing, fallback, credential injection, and token management. Prompt caching achieving ~90% cost reduction. Built around a hard latency constraint — answers in a live trading environment can't take minutes. The core tradeoff: flat agent with smart selection beats hierarchical subagents when the domain is real-time.
 
-- **System design** — Designed and shipped production platforms handling millions of transactions. I think in data flows, failure modes, and operational cost.
-- **Infrastructure** — Kubernetes, Terraform, CI/CD, Docker. I deploy what I build.
-- **Scientific computing** — NumPy/SciPy, FFT convolution, radiative transfer modelling, multi-criteria decision analysis.
-- **Geospatial stack** — GDAL, rasterio, xarray, GeoPandas, PostGIS, STAC, COG.
+## What I bring
+
+- **AI systems** — Multi-agent orchestration, LangGraph, tool selection strategies, cost/latency/quality tradeoffs in production
+- **System design** — Distributed platforms at scale, failure modes, operational cost modeling
+- **Geospatial** — GDAL, rasterio, xarray, GeoPandas, PostGIS, STAC, COG
+- **Infrastructure** — Kubernetes, Terraform, CI/CD, Docker, AWS · GCP · Azure
+- **Scientific computing** — NumPy/SciPy, FFT convolution, radiative transfer modelling, MCDA
 
 ## Stack
 
-Python · TypeScript · Docker · Kubernetes · Terraform · AWS/GCP/Azure · PostgreSQL · GitHub Actions
-
-## Contact
-
-vcygni@gmail.com · [LinkedIn](https://linkedin.com/in/ahmed-riahi-24011B85) · Porto, Portugal
+Python · TypeScript · LangGraph · FastAPI · Next.js · PostgreSQL · PostGIS · Docker · Kubernetes · Terraform · AWS/GCP/Azure
